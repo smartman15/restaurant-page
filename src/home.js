@@ -1,6 +1,6 @@
 import bonsBurgers from "./images/bons_burgers.jpg";
 
-export function component(){
+export function home(){
     const contentDiv = document.querySelector("div#content");
 
     // create bonBurgerLogo img variable
