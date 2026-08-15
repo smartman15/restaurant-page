@@ -1,0 +1,1 @@
+restaurant page project for practicing webpack and bundling
