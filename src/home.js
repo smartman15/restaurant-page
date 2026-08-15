@@ -1,7 +1,7 @@
 import bonsBurgers from "./images/bons_burgers.jpg";
 
 export function component(){
-    const container = document.createElement('div');
+    const contentDiv = document.querySelector("div#content");
 
     // create bonBurgerLogo img variable
     const bonBurgerLogo = document.createElement('img');
@@ -22,10 +22,8 @@ export function component(){
     const div2 = document.createElement('div');
     div2.textContent = "We serve everyone here with respect and make our food with nothing but the freshest ingredients, and the most important ingredient of them all: love.";
 
-    container.appendChild(bonBurgerLogo);
-    container.appendChild(header);
-    container.appendChild(div1);
-    container.appendChild(div2);
-
-    return container;
+    contentDiv.appendChild(bonBurgerLogo);
+    contentDiv.appendChild(header);
+    contentDiv.appendChild(div1);
+    contentDiv.appendChild(div2);
 }
